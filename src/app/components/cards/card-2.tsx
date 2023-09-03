@@ -20,10 +20,12 @@ const ContentItem2: React.FC<ContentItemProps> = ({
       <div className="flex flex-row space-y-0 justify-between">
         <div className="flex flex-row space-x-3">
           {" "}
-          <div className="text-2xl">
+          <div className="text-sm md:text-2xl">
             <Icon />
           </div>
-          <div className="text-xl text-gray-900 font-bold">{title}</div>
+          <div className=" text-sm md:text-xl text-gray-900 font-bold">
+            {title}
+          </div>
         </div>
         <Button text="Read more" isPrimary={false} />
       </div>
