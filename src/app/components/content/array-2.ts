@@ -17,7 +17,7 @@ export const contentItems2 = [
     icon: RiBrainFill,
   },
   {
-    title: "The Compound Effect",
+    title: "Compound Effect",
     description:
       " Experience the profound impact of the compound effect through our enlightening content. Uncover how small, consistent actions can lead to remarkable results over time. Discover powerful insights, practical strategies, and reflective perspectives to harness the power of compounding in your life. Unlock the secret to achieving exponential growth and success through our thought-provoking materials.",
     icon: GrStackOverflow, // Unique icon for this item
