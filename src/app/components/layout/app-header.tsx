@@ -1,12 +1,10 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-export function AppHeader() {
+export default function Header() {
   return (
     <header className="flex justify-center items-center border-border sticky  z-50 w-full h-20 ">
-      <div className="w-11/12 lg:w-3/6 h-20   flex flex-row items-center justify-between  fixed     ">
+      <div className="w-11/12 lg:w-3/6 h-20  bg-white opacity-90  flex flex-row items-center justify-between  fixed     ">
         <>
           <Image
             width={50}

@@ -1,15 +1,17 @@
 import Image from "next/image";
-import Layout from "./layout";
+
 import Button from "./components/buttons/button-1";
-import { RiCompassDiscoverLine } from "react-icons/ri";
+
 import ContentItem from "./components/cards/card-1";
 import ContentItem2 from "./components/cards/card-2";
 import { contentItems } from "./components/content/array-1";
 import { contentItems2 } from "./components/content/array-2";
+import RootLayout from "./layout";
+import React from "react";
 
 export default function Home() {
   return (
-    <Layout>
+    <React.Fragment>
       <div className="flex min-h-screen flex-col  items-center space-y-10 mt-5">
         <div className="w-11/12 lg:w-3/6 h-fit p-5 rounded-lg bg-background/70 backdrop-blur-lg ring-1 ring-gray-500">
           <h1
@@ -24,7 +26,7 @@ export default function Home() {
             insights & personal reflections.
           </p>
 
-          <div className="flex items-center flex-col ">
+          <div className="flex items-center justify-center gap-5 flex-col md:flex-row ">
             <Button text="Discover more" isPrimary={true} />
             <Button text="Uncover Insights" isPrimary={false} />
           </div>
@@ -66,6 +68,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-    </Layout>
+    </React.Fragment>
   );
 }
