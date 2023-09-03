@@ -24,7 +24,7 @@ export default function Home() {
             insights & personal reflections.
           </p>
 
-          <div className="flex mt-5 justify-center flex-row gap-5">
+          <div className="flex items-center flex-col ">
             <Button text="Discover more" isPrimary={true} />
             <Button text="Uncover Insights" isPrimary={false} />
           </div>
