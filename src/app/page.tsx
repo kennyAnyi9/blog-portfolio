@@ -6,16 +6,16 @@ import ContentItem from "./components/cards/card-1";
 import ContentItem2 from "./components/cards/card-2";
 import { contentItems } from "./components/content/array-1";
 import { contentItems2 } from "./components/content/array-2";
-import RootLayout from "./layout";
+
 import React from "react";
 
 export default function Home() {
   return (
     <React.Fragment>
       <div className="flex min-h-screen flex-col  items-center space-y-10 mt-5">
-        <div className="w-11/12 lg:w-3/6 h-fit p-5 rounded-lg bg-background/70 backdrop-blur-lg ring-1 ring-gray-500">
+        <div className="w-11/12 lg:w-3/6 h-fit p-5 rounded-lg bg-background/70 backdrop-blur-lg ring-1 ring-gray-300">
           <h1
-            className="text-center  text-2xl md:text-3xl font-bold 
+            className="text-center  text-2xl md:text-4xl font-bold 
                     text-gray-900
                     "
           >
@@ -26,7 +26,7 @@ export default function Home() {
             insights & personal reflections.
           </p>
 
-          <div className="flex items-center justify-center gap-5 flex-col md:flex-row ">
+          <div className="flex items-center justify-center gap-2 flex-col md:flex-row ">
             <Button text="Discover more" isPrimary={true} />
             <Button text="Uncover Insights" isPrimary={false} />
           </div>

@@ -18,7 +18,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       onClick={onClick}
-      className={`relative w-full md:w-2/4 px-5 py-3 text-sm rounded-xl ring-1 ring-gray-800 mt-5 leading-none flex items-center justify-center ${buttonClass}`}
+      className={`relative w-4/5 md:w-1/4 px-5 py-3 text-sm rounded-xl ring-1 ring-gray-800 mt-5 leading-none flex items-center justify-center ${buttonClass}`}
     >
       {text}
     </button>

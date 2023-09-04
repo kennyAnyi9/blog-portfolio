@@ -6,7 +6,7 @@ import { DiGithubBadge } from "react-icons/di";
 export default function Footer() {
   return (
     <footer className="w-full flex mt-10 justify-center">
-      <div className="flex items-center justify-between w-11/12 lg:w-3/6 p-5 rounded-lg bg-background/70 backdrop-blur-lg ring-1 ring-gray-500">
+      <div className="flex flex-col md:flex-row items-center justify-between w-11/12 lg:w-3/6 p-5 rounded-lg bg-background/70 backdrop-blur-lg ring-1 ring-gray-400">
         <div className="flex text-black dark:text-gray-400 items-center lg:flex-row flex-col">
           <Image
             width={40}
