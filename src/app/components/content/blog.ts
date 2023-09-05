@@ -6,7 +6,7 @@ export const posts = [
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat urna nec lorem bibendum, eu auctor purus eleifend.",
     icon: "fa-book", // Replace with the appropriate icon (e.g., from FontAwesome)
-    link: "/blog/post-1", // Replace with the actual link to the blog post
+    link: "/pages/detail", // Replace with the actual link to the blog post
   },
   {
     title: "Post Title 2",
