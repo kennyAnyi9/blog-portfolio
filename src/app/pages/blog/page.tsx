@@ -21,16 +21,16 @@ export default function Blog() {
             Blog
           </h1>
           <div>
-            <h1 className="text-xl">Featured Concepts</h1>
-            <div className="flex flex-row flex-wrap gap-5 ">
+            <h1 className="text-lg mb-2">Featured Concepts</h1>
+            <div className="flex flex-row flex-wrap gap-4 ">
               {featuredConcepts.map((item, index) => (
                 <TagWithIcon key={index} tag={item.name} />
               ))}
             </div>
           </div>
           <div>
-            <h1 className="text-xl">Featured Autors</h1>
-            <div className="flex flex-row flex-wrap gap-5 ">
+            <h1 className="text-lg mb-2">Featured Autors</h1>
+            <div className="flex flex-row flex-wrap gap-4 ">
               {featuredAutors.map((item, index) => (
                 <TagWithIcon key={index} tag={item.name} />
               ))}

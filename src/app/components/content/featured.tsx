@@ -8,8 +8,8 @@ interface TagWithIconProps {
 const TagWithIcon: React.FC<TagWithIconProps> = ({ tag }) => {
   return (
     <div className="flex items-center ">
-      <HiHashtag className="text-gray-500" /> {/* Hashtag Icon */}
-      <p className="text-gray-500">{tag}</p> {/* Tag text */}
+      <HiHashtag className="text-emerald-600" /> {/* Hashtag Icon */}
+      <p className="text-emerald-600">{tag}</p> {/* Tag text */}
     </div>
   );
 };
